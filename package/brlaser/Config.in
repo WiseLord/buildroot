@@ -1,0 +1,8 @@
+config BR2_PACKAGE_BRLASER
+	bool "brlaser"
+	depends on BR2_PACKAGE_CUPS
+	depends on BR2_PACKAGE_GHOSTSCRIPT
+	help
+	  brlaser is a CUPS driver for Brother laser printers
+
+	  https://github.com/pdewacht/brlaser
